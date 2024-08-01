@@ -8090,8 +8090,10 @@ textarea.form-control-lg {
 }
 
 .text-muted {
-  --bs-text-opacity: 1;
-  color: #6c757d !important;
+  --bs-text-opacity: 0;
+  color: black !important;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .text-black-50 {
@@ -10846,11 +10848,13 @@ p {
   margin-bottom: 1rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
-  font-size: 1rem;
-  font-weight: 400;
-  font-style: italic;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: darkred;
+  font-style: normal;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
+  background-image: url("/Website-for-our-game/src/assets/img/2.jpg");
 }
 
 @media (min-width: 768px) {
@@ -10985,6 +10989,10 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
+}
+#characters{
+  text-align: center;
+  margin-bottom: 1em;
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
